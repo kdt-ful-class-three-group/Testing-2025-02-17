@@ -4,7 +4,15 @@ import fs from "fs"
 const port = 3000
 
 const server = http.createServer(function(req, res) {
-  console.log("request URL : " + req.url);
+  console.log("req URL : " + req.url);
+  if(req.method === "GET") {
+    if(req.url === "/") {
+      const indexPage = fs.readFileSync('index.html', 'utf-8');
+      res.writeHead(200, { 'Content-Type': 'utf-8; text/html'});
+      res.write(indexPage);
+      res.end();
+    }
+  }
   if(req.method === "post") {
     console.log("in post url")
     if(req.url === "/form") {

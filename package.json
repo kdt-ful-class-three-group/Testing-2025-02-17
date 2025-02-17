@@ -1,0 +1,19 @@
+{
+  "name": "testing-2025-02-17",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdt-ful-class-three-group/Testing-2025-02-17.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdt-ful-class-three-group/Testing-2025-02-17/issues"
+  },
+  "homepage": "https://github.com/kdt-ful-class-three-group/Testing-2025-02-17#readme",
+  "description": ""
+}
